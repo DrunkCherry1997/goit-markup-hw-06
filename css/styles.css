@@ -20,6 +20,31 @@ ol {
 img {
     display: block;
 }
+/* Респонсивність */
+/* Для ширини екрана до 320px */
+@media (max-width: 320px) {
+  
+}
+
+/* Для ширини екрана від 321px до 767px */
+@media (min-width: 321px) and (max-width: 767px) {
+   
+}
+
+/* Для ширини екрана від 768px до 1158px */
+@media (min-width: 768px) and (max-width: 1158px) {
+   
+}
+
+/* Для ширини екрана від 1159px і більше */
+@media (min-width: 1159px) {
+  
+}
+/* Для респонсивних фонових зображень використані медіа-функція min-resolution. 
+наприклад: */
+@media (min-resolution: 2dppx) {
+    
+}
 
 /* Навігація */
 
