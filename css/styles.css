@@ -38,6 +38,15 @@ img {
         letter-spacing: 0.72px;
         text-transform: capitalize;
    }
+   .list-adress-itemone {
+    font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+   }
     .main-title {
     text-align: center;
         /* Header 2 */
