@@ -1,0 +1,1021 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+
+/* Навігація */
+
+.header {
+ background-color: var(--WHITE, #FFF);
+        border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
+}
+
+.container-first {
+    display: flex;
+    width: 1158px;
+     padding: 0 15px;
+     margin: 0 auto; 
+     justify-content: space-between;
+     align-items: center;
+
+}
+.container-first .container {
+     width: 1158px;
+     margin: 0 auto; 
+
+}
+.navigation {
+    display: flex;
+    align-items: center
+}
+.header .logotype {
+   
+    
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-right: 76px;
+    white-space: nowrap;
+
+
+}
+
+.logotype {
+    text-decoration: none;
+    
+    margin-right: 76px
+    
+ 
+   
+}
+
+.header .logotype span.first-studio {
+    color: #2e2f42;
+  
+   
+}
+
+.first-studio {
+    color: #2e2f42;
+
+
+}
+
+.navigation-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+   
+}
+
+
+.menu-nav {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+    font-size: 16px;
+    
+    font-weight: 500;
+    line-height: 1.5em;
+
+    letter-spacing: 0.32px;
+
+}
+.menu-nav:hover::after {
+    content: '';
+    
+    position: absolute;
+   
+    left: 0;
+    /* Відстань між лівим краєм псевдоелемента і лівим краєм батьківського елемента */
+    bottom: -1px;
+    /* Відстань між нижнім краєм псевдоелемента і нижнім краєм батьківського елемента */
+    height: 4px;
+  
+    background-color: #404bbf;
+    width: 100%;
+    border-radius: 2px;
+    
+}
+
+
+.link {
+    text-decoration: none;
+    padding: 24px 0;
+    display: block;
+    position: relative;
+
+ 
+}
+
+.menu-nav:hover,
+.menu-nav:focus {
+    color: #404bbf
+}
+
+.navigation-list li:first-child .menu-nav { 
+    position: relative;
+   
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-list li:first-child .menu-nav:hover,
+.navigation-list li:first-child .menu-nav:focus {
+    color: #404bbf;
+}
+
+/* Адрес */
+.adress-style {
+    color: var(--SLATE, #434455);
+    /* Body */
+   
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    font-style: normal;
+    
+}
+
+.link:hover {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
+}
+
+.adress-style .live-connection:hover,
+.adress-style .live-connection:focus {
+    color: #404bbf
+}
+
+.list-adress {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    
+    
+    
+}
+
+.list-adress-itemtwo {
+margin-right: 0;
+}
+.live-connection {
+    color: #434455;
+}
+/* Стилі для першого пункту списку контактів */
+.list-adress-itemone .live-connection,
+.list-adress-itemtwo .live-connection {
+    color: var(--SLATE, #434455);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-adress-itemone .live-connection:hover,
+.list-adress-itemone .live-connection:focus,
+.list-adress-itemtwo .live-connection:hover,
+.list-adress-itemtwo .live-connection:focus {
+    color: #404bbf;
+}
+
+
+
+/* Унікальний контент сторінки */
+.main-styles {
+    background-color: #2e2f42;
+    padding: 188px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
+max-width: 1440px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin: 0 auto;
+}
+
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+  
+}
+
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+
+    text-align: center;
+    letter-spacing: 1.12px;
+    font-family: Roboto;
+    color: #ffffff;
+    max-width: 496px;
+    font-weight: 700;
+    line-height: 1.07;
+
+    margin: 0 auto 48px;
+
+
+
+}
+
+.button-type {
+
+    background: var(--IRIS, #4D5AE5);
+
+    color: var(--WHITE, #FFF);
+    /* Button Text */
+    font-family: "Roboto",
+        sans-serif;
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    text-align: center;
+    height: 56px;
+    min-width: 169px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-type:hover,
+.button-type:focus {
+    background-color: #404BBF;
+}
+
+
+/* Секція наших переваг */
+:root {
+    --your-variable: #4D5AE5;
+    --secondary-color: #F4F4FD;
+}
+.second-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0); overflow: hidden;
+ }
+
+
+.title-second {
+    list-style-type: none;
+    display:flex;
+    gap: 24px;
+}
+.first-element {
+    width: calc((100% - 72px) / 4);
+}
+
+.my-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.advantages-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+  
+   
+    font-size: 20px;
+   
+    font-weight: 500;
+    line-height: 1.2;
+   
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    
+}
+
+.text-advantages {
+    color: var(--SLATE, #434455);
+    
+    
+    font-size: 16px;
+   
+    font-weight: 400;
+    line-height: 1.5em ;
+   
+    letter-spacing: 0.32px;
+   
+}
+.list-style {
+    list-style-type: none;
+}
+
+/* Наша команда */
+.team {
+    background-color: #F4F4FD;
+    padding-top: 120px ;
+    padding-bottom: 120px;
+}
+
+.page-team-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+   
+    font-size: 36px;
+    
+    font-weight: 700;
+    line-height: 1.11;
+ 
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    background: var(--CLOUD, #F4F4FD);
+    margin-bottom: 72px;
+}
+
+.team-list-style {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style-type: none;
+}
+.svg-class {
+    fill: var(--secondary-color, #f4f4fd);
+    
+    
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+
+.insta-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--your-variable, #4d5ae5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.insta-link:hover,
+.insta-link:focus {
+    background-color: #404bbf;
+}
+.name-position {
+    padding: 32px 0;
+}
+
+.advantages-title {
+   
+    margin-bottom: 8px;
+}
+
+
+
+.team-list-item {
+    flex-basis: calc((100% - 72px) /4);
+border-radius: 0px 0px 4px 4px;
+text-align: center;
+    background-color: #FFFFFF;
+}
+.team-list-item:first-child{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.name-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 3 */
+    
+    font-size: 20px;
+   
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.job-position {
+    color: var(--SLATE, #434455);
+    text-align: center;
+    /* Body */
+  
+    font-size: 16px;
+ 
+    font-weight: 400;
+    line-height: 1.5em;
+    /* 150% */
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+    
+}
+
+
+
+/* Портфоліо */
+.portfolio {
+    padding: 120px 0;
+}
+.title-section {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+   
+    font-size: 36px;
+   
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+     margin-bottom: 72px;
+}
+.portfolio-list {
+ list-style-type: none;
+ display: flex;
+flex-wrap: wrap;
+gap: 24px;
+row-gap: 48px;
+}
+
+.bankingapp {
+     width: calc((100% - 48px) / 3);
+    
+}
+.bankingapp:first-child{
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+                 .bankingapp:hover .paragraph-portfolio  {
+transform: translateY(0%);
+        }
+
+        
+
+.bankingapp:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+
+    .portfolio-list-item-container {
+position: relative;
+overflow: hidden;
+
+    }
+
+    .paragraph-portfolio {
+        position: absolute;
+        top: 0;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--your-color-variable, #f4f4fd);
+        padding: 40px 32px;
+        background-color: #4d5ae5;
+        height: 100%;
+        width: 100%;
+        transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+.portfolio-list-item-description {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.advantages-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+   
+    
+    font-size: 20px;
+    
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+
+}
+
+
+
+
+/* Футер сторінки */
+
+.footer-style {
+    background-color: #2e2f42;
+    padding-top: 120px;
+    padding: 100px 0;
+
+
+}
+
+.container-last{
+    width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+        align-items: baseline;
+        display: flex;
+}
+
+.container-footer {
+  
+    margin-right: 120px;
+   
+}
+
+.logo-style {
+    
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway",
+        sans-serif;
+    font-size: 18px;
+   
+    font-weight: 700;
+    line-height: 1.17;
+
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+   
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+
+
+}
+  .logo-style .studio-footer {
+    color: #f4f4fd; 
+
+  
+}
+
+.footer-text {
+   
+    color: var(--CLOUD, #F4F4FD);
+    /* Body */
+    
+    font-size: 16px;
+   
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    background-color: var(--NAVY-BLUE, #2E2F42);
+    max-width: 264px;
+    
+    
+}
+.footer-social-media-container{
+margin-right:auto;
+
+}
+.footer-media-paragragh {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--YOUR-CSS-VARIABLE, #FFFFFF);
+    margin-bottom: 16px;
+}
+.media-list-footer {
+    display: flex;
+   
+    gap: 16px;
+    list-style-type: none;
+  
+}
+.footer-media-item {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+        
+    width: 40px;
+        height: 40px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.footer-media-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--your-variable, #4d5ae5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.media-list-footer li:first-child .footer-media-link {
+    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.footer-media-link:hover,
+.footer-media-link:focus {
+    background-color: #31d0aa;
+}
+.footer-icons {
+    fill: #f4f4fd;
+
+}
+
+
+
+
+.form {
+    display: flex;
+    gap: 24px; 
+   
+}
+
+
+.form-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.form-label {
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+/* Задаємо стилі для елементів форми */
+
+.form-input {
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    padding-left: 16px;
+   
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: transparent;
+    width: 264px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
+}
+
+input::placeholder {
+    color: var(--WHITE, #FFF);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+  
+    padding-bottom: 8px;
+}
+.subscribe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.subscribe_button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    min-width: 165px;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+border-radius: 4px;
+
+
+}
+.subscribe_button:hover,
+.subscribe_button:focus {
+    background-color: #404BBF;
+    }
+
+
+
+/* Стилі для SVG іконки */
+.footer-icons-new {
+    fill: #f4f4fd;
+    margin-left: 16px; 
+}
+
+.modal-window-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+.modal-window-container.is-open {
+    visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+        
+}
+
+.modal-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 408px;
+    
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 72px 24px 24px 24px;
+
+
+}
+.modal-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
+
+}
+.modal-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button .modal-icon:hover,
+.modal-button .modal-icon:focus {
+    fill: #ffffff;
+}
+
+
+
+.modal-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--my-font-color, #2E2F42);
+    margin-bottom: 16px;
+
+}
+
+.modal-window-form-container {
+    margin-bottom: 8px;
+}
+.modal-window-form-container-last {
+    margin-bottom: 16px;
+}
+.modal-window-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--label-text-color);
+    display: block;
+    margin-bottom: 4px;
+}
+:root {
+    --label-text-color: #8e8f99;
+}
+.input-last-container {
+    position: relative;
+}
+.last-last-input {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+
+ .last-last-input:focus {
+border-color: #4D5AE5;
+
+}
+.last-last-input:focus + .new-page-svg {
+    fill: #4D5AE5;
+
+}
+
+.new-page-svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.new-page-svg:focus {
+    fill: #4D5AE5;
+}
+.textarea-first {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--LIGHT-SLATE, #8E8F99);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea-first:focus {
+    border-color: #4D5AE5;
+}
+
+.textarea-first::placeholder {
+    color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+    /* Змініть цей колір на бажаний */
+}
+
+.div-for-checkbox {
+    margin-bottom: 24px;
+}
+
+.label-checkbox {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--your-css-variable, #8e8f99);
+ }
+ .label-checkbox:focus {
+    fill: #4D5AE5;
+    
+ }
+ 
+ .checkbox-span {
+    width: 16px;
+    height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+
+
+ }
+
+ .checkbox-span .svg-for-checkbox:hover,
+ .checkbox-span .svg-for-checkbox:focus {
+     fill: #ffffff;
+ }
+
+ input:checked+label>span {
+    background-color: var(--your-background-color-variable, #404bbf);
+ border: none;
+ }
+
+:root {
+    --your-icon-color-variable: #F4F4FD;
+}
+
+input:checked+label>span svg { 
+    fill: var(--your-icon-color-variable);
+}
+
+.input-checkbox:checked + .label-checkbox .checkbox-span{
+    fill: #F4F4FD;
+}
+
+ .privacy-policy-link {
+     /* Стилі для посилання */
+    color: var(--link-color);
+     text-decoration: underline;
+     /* Додаємо підкреслення для посилання */
+ }
+
+ :root {
+     --link-color: #4d5ae5;
+ }
+
+ /* Стилі для посилання при наведенні */
+ .privacy-policy-link:hover {
+     text-decoration: none;
+     /* Відмінюємо підкреслення при наведенні */
+    color: var(--your-variable, #4d5ae5);
+ }
+.button-for-checkbox {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ margin-top: 24px;
+    margin-left: 90px;
+}
+.button-for-checkbox:hover,
+.button-for-checkbox:focus{
+    background-color: #404BBF;
+}
