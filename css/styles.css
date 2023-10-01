@@ -108,7 +108,65 @@ img {
 
 /* Для ширини екрана від 768px до 1158px */
 @media (min-width: 768px) and (max-width: 1158px) {
-   
+    .menu-nav .link {
+        font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px;
+            /* 116.667% */
+            letter-spacing: 0.48px;
+    }
+        .list-adress-itemone {
+            font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                /* 150% */
+                letter-spacing: 0.32px;
+        }
+        ..main-title {
+            text-align: center;
+                /* Header 1 */
+                font-family: Roboto;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px;
+                /* 107.143% */
+                letter-spacing: 1.12px;
+        }
+                .advantages-title {
+                    font-family: Roboto;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 40px;
+                        /* 111.111% */
+                        letter-spacing: 0.72px;
+                        text-transform: capitalize;
+                }
+     .text-advantages {
+ font-family: Roboto;
+ font-size: 16px;
+font-style: normal;
+     font-weight: 500
+     lne-height: 24px;
+      /* 150% */
+ letter-spacing: 0.32px;
+                                  }
+.page-team-title {
+    font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+
 }
 
 /* Для ширини екрана від 1159px і більше */
