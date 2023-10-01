@@ -58,6 +58,10 @@ img {
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
+        font-size: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
    }
    .advantages-title {
     text-align: center;
@@ -104,10 +108,14 @@ img {
         /* 150% */
         letter-spacing: 0.32px;
    }
+  
 }
 
 /* Для ширини екрана від 768px до 1158px */
 @media (min-width: 768px) and (max-width: 1158px) {
+    .container-first .container {
+        width: 100%;
+    }
     .menu-nav .link {
         font-family: Roboto;
             font-size: 12px;
@@ -116,6 +124,16 @@ img {
             line-height: 14px;
             /* 116.667% */
             letter-spacing: 0.48px;
+        
+            
+
+    }
+    .list-adress {
+        flex-direction: row;
+            flex-wrap: wrap;
+            gap: 12px;
+     margin-right: 121px;
+
     }
         .list-adress-itemone {
             font-family: Roboto;
@@ -125,8 +143,9 @@ img {
                 line-height: 24px;
                 /* 150% */
                 letter-spacing: 0.32px;
+                    flex-basis: calc((100% - 10px) / 2);
         }
-        ..main-title {
+        .main-title {
             text-align: center;
                 /* Header 1 */
                 font-family: Roboto;
@@ -136,7 +155,23 @@ img {
                 line-height: 60px;
                 /* 107.143% */
                 letter-spacing: 1.12px;
+                margin: 0 auto;
+                padding-left: 112px 136px 204px 136px;
         }
+.title-second{
+    display: flex;
+        flex-wrap: wrap;
+}
+.first-element {
+    width: calc(50% - 24px);
+       
+        margin: 5px;
+      
+        background-color: #ccc;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+}
                 .advantages-title {
                     font-family: Roboto;
                         font-size: 36px;
@@ -156,6 +191,20 @@ font-style: normal;
       /* 150% */
  letter-spacing: 0.32px;
                                   }
+.team-list-style {
+    display: flex;
+        flex-wrap: wrap;
+}
+.team-list-item {
+    width: calc(50% - 24px);
+    
+        margin: 5px;
+      
+        background-color: #ccc;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+}
 .page-team-title {
     font-family: Roboto;
         font-size: 36px;
@@ -165,6 +214,21 @@ font-style: normal;
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
+}
+.portfolio-list {
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bankingapp {
+    width: calc(33.33% - 24px);
+       
+        margin: 5px;
+      
+        background-color: #ccc;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
 }
 
 }
