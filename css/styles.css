@@ -28,7 +28,17 @@ img {
 
 /* Для ширини екрана від 321px до 767px */
 @media (min-width: 321px) and (max-width: 767px) {
-   .main-title {
+   .menu-nav .link {
+    font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+   }
+    .main-title {
     text-align: center;
         /* Header 2 */
         font-family: Roboto;
