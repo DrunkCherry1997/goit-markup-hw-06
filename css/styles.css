@@ -155,8 +155,8 @@ img {
                 line-height: 60px;
                 /* 107.143% */
                 letter-spacing: 1.12px;
-                margin: 0 auto;
-                padding-left: 112px 136px 204px 136px;
+                margin: 0 auto 136px;
+             
         }
 .title-second{
     display: flex;
@@ -214,6 +214,8 @@ font-style: normal;
         /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
+        text-align: center;
+        justify-content: center;
 }
 .portfolio-list {
 display: flex;
@@ -229,6 +231,11 @@ display: flex;
         text-align: center;
         padding: 20px;
         box-sizing: border-box;
+}
+.container-last {
+    display: block;
+    flex-direction: column;
+        
 }
 
 }
