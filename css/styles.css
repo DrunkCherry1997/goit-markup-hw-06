@@ -173,6 +173,7 @@ flex-direction: column;
      list-style-type: none;
      display: flex;
      gap: 24px;
+     flex-direction: row;
  }
        
         .advantages-title {
@@ -216,6 +217,7 @@ flex-direction: column;
                 list-style-type: none;
                 display: flex;
                 gap: 24px;
+                flex-direction: row;
             }
     }
 
