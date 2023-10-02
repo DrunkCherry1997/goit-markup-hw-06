@@ -19,231 +19,208 @@ ol {
 }
 img {
     display: block;
+    max-width: 100%;
 }
 /* Респонсивність */
-/* Для ширини екрана до 320px */
-@media (max-width: 320px) {
-  
-}
 
-/* Для ширини екрана від 321px до 767px */
-@media (min-width: 321px) and (max-width: 767px) {
-   .menu-nav .link {
-    font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-   }
-   .list-adress-itemone {
-    font-family: Roboto;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 120% */
-        letter-spacing: 0.4px;
-   }
-    .main-title {
-    text-align: center;
-        /* Header 2 */
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-        font-size: 2em;
+/* Для ширини екрана від 320px */
+    @media (min-width: 320px) {
+    .container {
+            width: 100%;
+            padding: 0 15px;
+            margin: 0 auto;
+    
+        }
+      .title-second {
+flex-direction: column;
+      }
+        .first-element {
+            width: 100%;
+        }
+
+        .team-list-style {
+            flex-direction: column;
+        }
+
+        .bankingapp {
+            width: 100%;
+        }
+
+        .menu-nav .link {
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+        }
+
+        .list-adress-itemone {
+            font-family: Roboto;
+         
+            font-style: normal;
+         
+            line-height: 24px;
+            /* 120% */
+            letter-spacing: 0.4px;
+        }
+
+        .main-title {
+            text-align: center;
+            /* Header 2 */
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+            font-size: 2em;
             display: flex;
             align-items: center;
             justify-content: center;
-   }
-   .advantages-title {
-    text-align: center;
-        /* Header 2 */
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-   }
-   .text-advantages {
-    text-align: center;
-        /* Header 2 */
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-   }
-   .page-team-title {
-    text-align: center;
-        /* Header 2 */
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-   }
-   .footer-text {
-    font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
-   }
-  
-}
+        }
 
-/* Для ширини екрана від 768px до 1158px */
-@media (min-width: 768px) and (max-width: 1158px) {
-    .container-first .container {
-        width: 100%;
+        .advantages-title {
+            text-align: center;
+            /* Header 2 */
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+        }
+
+        .text-advantages {
+            text-align: center;
+            /* Header 2 */
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+        }
+
+        .page-team-title {
+            text-align: center;
+            /* Header 2 */
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+        }
+
+        .footer-text {
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+        }
+
     }
-    .menu-nav .link {
-        font-family: Roboto;
+
+    /* Для ширини екрана від 768px  */
+    @media (min-width: 768px) {
+        .container-first .container {
+            width: 100%;
+        }
+
+        .menu-nav .link {
+            font-family: Roboto;
             font-size: 12px;
             font-style: normal;
             font-weight: 400;
             line-height: 14px;
             /* 116.667% */
             letter-spacing: 0.48px;
-        
-            
 
-    }
-    .list-adress {
-        flex-direction: row;
-            flex-wrap: wrap;
-            gap: 12px;
-     margin-right: 121px;
 
-    }
-        .list-adress-itemone {
-            font-family: Roboto;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 24px;
-                /* 150% */
-                letter-spacing: 0.32px;
-                    flex-basis: calc((100% - 10px) / 2);
+
         }
+
+       
         .main-title {
             text-align: center;
-                /* Header 1 */
-                font-family: Roboto;
-                font-size: 56px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 60px;
-                /* 107.143% */
-                letter-spacing: 1.12px;
-                margin: 0 auto 136px;
-             
+            /* Header 1 */
+            font-family: Roboto;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            /* 107.143% */
+            letter-spacing: 1.12px;
+            margin: 0 auto 136px;
+
         }
-.title-second{
-    display: flex;
-        flex-wrap: wrap;
-}
-.first-element {
-    width: calc(50% - 24px);
-       
-        margin: 5px;
-      
-        background-color: #ccc;
-        text-align: center;
-        padding: 20px;
-        box-sizing: border-box;
-}
-                .advantages-title {
-                    font-family: Roboto;
-                        font-size: 36px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 40px;
-                        /* 111.111% */
-                        letter-spacing: 0.72px;
-                        text-transform: capitalize;
-                }
-     .text-advantages {
- font-family: Roboto;
- font-size: 16px;
-font-style: normal;
-     font-weight: 500
-     lne-height: 24px;
-      /* 150% */
- letter-spacing: 0.32px;
-                                  }
-.team-list-style {
-    display: flex;
-        flex-wrap: wrap;
-}
-.team-list-item {
-    width: calc(50% - 24px);
-    
-        margin: 5px;
-      
-        background-color: #ccc;
-        text-align: center;
-        padding: 20px;
-        box-sizing: border-box;
-}
-.page-team-title {
-    font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px;
-        /* 111.111% */
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-        text-align: center;
-        justify-content: center;
-}
-.portfolio-list {
-display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.bankingapp {
-    width: calc(33.33% - 24px);
-       
-        margin: 5px;
-      
-        background-color: #ccc;
-        text-align: center;
-        padding: 20px;
-        box-sizing: border-box;
-}
-.container-last {
-    display: block;
-    flex-direction: column;
-        
-}
 
-}
+ .title-second {
+     list-style-type: none;
+     display: flex;
+     gap: 24px;
+ }
+       
+        .advantages-title {
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+        }
 
-/* Для ширини екрана від 1159px і більше */
-@media (min-width: 1159px) {
-  
-}
+        .text-advantages {
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500 lne-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;
+        }
+
+        .page-team-title {
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+            /* 111.111% */
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+
+
+    /* Для ширини екрана від 1159px і більше */
+    @media (min-width: 1159px) {
+        .title-second {
+                list-style-type: none;
+                display: flex;
+                gap: 24px;
+            }
+    }
+
+   
+
 /* Для респонсивних фонових зображень використані медіа-функція min-resolution. 
 наприклад: */
 @media (min-resolution: 2dppx) {
