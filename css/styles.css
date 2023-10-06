@@ -38,9 +38,7 @@ list-style-type: none;
             width: 100%;
         }
 
-        .team-list-style {
-            flex-direction: column;
-        }
+     
 
         .bankingapp {
             width: 100%;
@@ -143,7 +141,15 @@ list-style-type: none;
             letter-spacing: 0.72px;
             text-transform: capitalize;
             margin: 0 auto;
+            width: 100%;
+            display: flex;
+               padding-left: 50px;
+               margin-right: 93px;
         }
+
+            .advantages-title:first-child {
+    
+                 }
 
         .text-advantages {
         color: var(--SLATE, #434455);
@@ -156,6 +162,11 @@ list-style-type: none;
             /* 150% */
             letter-spacing: 0.32px;
            margin: 0 auto;
+           max-width: 288px;
+           max-height: 72px;
+            width: 100%;
+            margin-bottom: 72px;
+        margin-right: 86px;
            
         }
 
@@ -174,6 +185,61 @@ list-style-type: none;
             /* 111.111% */
             letter-spacing: 0.72px;
             text-transform: capitalize;
+            margin-bottom: 72px;
+            margin-right: 72px;
+          
+        }
+
+        .job-position {
+
+            color: var(--SLATE, #434455);
+                text-align: center;
+                /* Body */
+            
+                font-size: 16px;
+            
+                font-weight: 400;
+                line-height: 1.5em;
+                /* 150% */
+                letter-spacing: 0.32px;
+                margin-bottom: 8px;
+                margin-right: 50px;
+
+        }
+
+                  .team-list-style {
+                      flex-direction: column;
+                      width: 100%;
+                  }
+
+                .team-list-item {
+                    flex-basis: calc((100% - 72px) /4);
+                    border-radius: 0px 0px 4px 4px;
+                    text-align: center;
+                    background-color: #FFFFFF;
+                   
+                }
+        
+                .team-list-item:first-child {
+                    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                        0px 1px 1px rgba(46, 47, 66, 0.16),
+                        0px 2px 1px rgba(46, 47, 66, 0.08);
+                }
+
+        .img-worker {
+          
+            object-fit: cover;
+        }
+
+        .social-media {
+            flex-direction: row;
+             display: flex;
+            justify-content: center;
+             gap: 24px;
+            list-style-type: none;
+           align-items: center;
+          margin-right: 80px;
+                
         }
 
         .footer-text {
@@ -186,7 +252,7 @@ list-style-type: none;
             letter-spacing: 0.32px;
         }
 
-    }
+    
 
     /* Для ширини екрана від 768px  */
     @media (min-width: 768px) {
@@ -716,7 +782,7 @@ clip: rect(0 0 0 0); overflow: hidden;
     padding-bottom: 120px;
 }
 
-.page-team-title {
+/* .page-team-title {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -730,7 +796,7 @@ clip: rect(0 0 0 0); overflow: hidden;
     text-transform: capitalize;
     background: var(--CLOUD, #F4F4FD);
     margin-bottom: 72px;
-}
+} */
 /* 
 .team-list-style {
     list-style-type: none;
@@ -738,12 +804,12 @@ clip: rect(0 0 0 0); overflow: hidden;
     flex-direction: row;
     gap: 24px;
 } */
-.social-media {
+/* .social-media {
     display: flex;
     justify-content: center;
     gap: 24px;
     list-style-type: none;
-}
+} */
 .svg-class {
     fill: var(--secondary-color, #f4f4fd);
     
@@ -784,7 +850,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.team-list-item {
+/* .team-list-item {
     flex-basis: calc((100% - 72px) /4);
 border-radius: 0px 0px 4px 4px;
 text-align: center;
@@ -794,7 +860,7 @@ text-align: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 
 .name-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -809,7 +875,7 @@ text-align: center;
     letter-spacing: 0.4px;
     background: var(--CLOUD, #F4F4FD);
 }
-
+/* 
 .job-position {
     color: var(--SLATE, #434455);
     text-align: center;
@@ -823,7 +889,7 @@ text-align: center;
     letter-spacing: 0.32px;
     margin-bottom: 8px;
     
-}
+} */
 
 
 
