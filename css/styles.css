@@ -242,6 +242,54 @@ list-style-type: none;
                 
         }
 
+         .portfolio-list-item-container {
+            max-width: 288px;
+            max-height: 280px;
+         }
+         .advantages-title {
+            align-items: flex-start;
+         }
+
+        /* Footer from 320px */
+        
+                 .container-last {
+                     width: 1158px;
+                     padding: 0 15px;
+                     margin: 0 auto;
+                     align-items: baseline;
+                     display: block;
+                 }
+                .footer-style {
+                    background-color: #2e2f42;
+                    padding-top: 120px;
+                    padding: 100px 0;
+                    width: 320px;
+                        height: 664px;
+        
+                }
+                .logo-style {
+        
+                    color: var(--IRIS, #4D5AE5);
+                    font-family: "Raleway",
+                        sans-serif;
+                    font-size: 18px;
+        
+                    font-weight: 700;
+                    line-height: 1.17;
+        
+                    letter-spacing: 0.54px;
+                    text-transform: uppercase;
+        
+                    display: inline-block;
+                    margin-bottom: 16px;
+                    text-decoration: none;
+                    text-align: center;
+                    margin: 0 auto;
+        
+        
+                }
+
+
         .footer-text {
             font-family: Roboto;
             font-size: 16px;
@@ -981,21 +1029,22 @@ overflow: hidden;
 
 /* Футер сторінки */
 
-.footer-style {
+/* .footer-style {
     background-color: #2e2f42;
     padding-top: 120px;
     padding: 100px 0;
 
+ } */
 
-}
 
-.container-last{
+
+/* .container-last {
     width: 1158px;
-        padding: 0 15px;
-        margin: 0 auto;
-        align-items: baseline;
-        display: flex;
-}
+    padding: 0 15px;
+    margin: 0 auto;
+    align-items: baseline;
+    display: flex;
+} */
 
 .container-footer {
   
