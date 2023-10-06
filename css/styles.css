@@ -64,13 +64,9 @@ list-style-type: none;
                     stroke-width: 0;
                     stroke: currentColor;
                     fill: currentColor;
-                    display: flex;
-                        /* Встановлюємо контейнеру режим flex */
-                        justify-content: flex-end;
-                        /* Вирівнюємо контент у кінці горизонталі (праворуч) */
-                        align-items: center;
-                        /* Вирівнюємо контент по вертикалі по центру */
-                       margin-left: 59px;
+                  
+                    text-align: end;
+                    margin-left: 80px;
                 }
 
         .list-adress-itemone {
@@ -409,9 +405,19 @@ list-style-type: none;
 
     /* Для ширини екрана від 768px  */
     @media (min-width: 768px) {
-        .container-first .container {
-      
-        }
+        .container {
+                width: 728px;
+                padding: 0 28px;
+                margin: 0 auto;
+            }
+
+                        .navigation-list {
+                            list-style-type: none;
+                            display: flex;
+                            gap: 40px;
+                           text-align: end;
+            
+                        }
 
         .menu-nav .link {
             font-family: Roboto;
@@ -665,12 +671,12 @@ list-style-type: none;
 
 }
 
-.navigation-list {
+/* .navigation-list {
     list-style-type: none;
     display: flex;
     gap: 40px;
    
-}
+} */
 
 
 .menu-nav {
