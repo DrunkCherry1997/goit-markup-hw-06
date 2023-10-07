@@ -469,6 +469,7 @@ list-style-type: none;
             letter-spacing: 1.12px;
             margin: 0 auto 136px;
             margin-bottom: 36px;
+            width: 496px;
 
         }
 
@@ -504,6 +505,10 @@ list-style-type: none;
 
     flex-direction: row;
         flex-wrap: wrap;
+ }
+
+ .social-media {
+
  }
 
  .first-element {
@@ -587,7 +592,7 @@ list-style-type: none;
 
 
     /* Для ширини екрана від 1159px і більше */
-    @media (min-width: 1159px) {
+    @media (min-width: 1158px) {
         .container {
                 width: 1158px;
                 padding-left: 15px;
