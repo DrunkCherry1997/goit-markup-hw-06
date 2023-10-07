@@ -521,6 +521,8 @@ list-style-type: none;
  .team-list-style {
     flex-direction: row;
         flex-wrap: wrap;
+    padding-left: 70px;
+       
  }
        
         .advantages-title {
