@@ -467,6 +467,55 @@ gap: 72px ;
         .modal-paragraph {
 
         }
+
+                /* Mobile menue for Mobile version */
+        
+                .mobile-menue-window {}
+        
+                .mobile-menue {}
+
+                .mobile-icon {
+
+                }
+                .mobile-navigation {
+
+                }
+
+                .mobile-navigation-list {
+
+                }
+
+                .menu-nav .link {
+
+                }
+                .adress-style {
+
+                }
+
+                .list-adress {
+
+                }
+                .list-adress-itemtwo {
+
+                }
+               .live-connection .link {
+
+               }
+
+               .mobile-social-list {
+
+               }
+               .footer-media-item {
+
+               }
+
+               .footer-media-link {
+
+               }
+
+               .footer-icons {
+                
+               }
     }
     
 
@@ -1947,3 +1996,4 @@ input:checked+label>span svg {
 .button-for-checkbox:focus{
     background-color: #404BBF;
 }
+
