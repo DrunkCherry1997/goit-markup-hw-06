@@ -501,16 +501,6 @@ gap: 72px ;
                 }
 
                 .mobile-navigation-list {
-                    
-
-                }
-
-                .menu-nav .link {
-                   
-
-                }
-
-                .menue-nav-mobile {
                     font-family: Roboto;
                         font-size: 36px;
                         font-style: normal;
@@ -519,9 +509,22 @@ gap: 72px ;
                         /* 111.111% */
                         letter-spacing: 0.72px;
                         text-transform: capitalize;
+                        gap: 40px;
+                    
+
                 }
 
-                                .menu-nav-mobile:hover::after {
+                .menu-nav .link {
+                    
+
+                }
+
+                .menue-nav-mobile .link  {
+                   
+                   
+                }
+
+                                .menu-nav-mobile::after {
                                     content: '';
                 
                                     position: absolute;
@@ -531,7 +534,7 @@ gap: 72px ;
                                     bottom: -1px;
                                     /* Відстань між нижнім краєм псевдоелемента і нижнім краєм батьківського елемента */
                                     height: 4px;
-                
+                =
                                     background-color: #404bbf;
                                     width: 100%;
                                     border-radius: 2px;
