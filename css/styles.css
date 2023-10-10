@@ -471,9 +471,27 @@ gap: 72px ;
 
                 /* Mobile menue for Mobile version */
         
-                .mobile-menue-window {}
+                .mobile-menue-window {
+                    position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: #FFF;
+                        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                }
         
-                .mobile-menue {}
+                .mobile-menue {
+                    position: absolute;
+                    /* top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) scale(1); */
+                    width: 320px;
+                    min-height: 640px;
+                    background-color: #FFF;
+                    padding-left: 16px;
+                    padding-top: 72px;
+                }
 
                 .mobile-icon {
 
@@ -483,27 +501,136 @@ gap: 72px ;
                 }
 
                 .mobile-navigation-list {
+                    
 
                 }
 
                 .menu-nav .link {
+                   
 
                 }
-                .adress-style {
+
+                .menue-nav-mobile {
+                    font-family: Roboto;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 40px;
+                        /* 111.111% */
+                        letter-spacing: 0.72px;
+                        text-transform: capitalize;
+                }
+
+                                .menu-nav-mobile:hover::after {
+                                    content: '';
+                
+                                    position: absolute;
+                
+                                    left: 0;
+                                    /* Відстань між лівим краєм псевдоелемента і лівим краєм батьківського елемента */
+                                    bottom: -1px;
+                                    /* Відстань між нижнім краєм псевдоелемента і нижнім краєм батьківського елемента */
+                                    height: 4px;
+                
+                                    background-color: #404bbf;
+                                    width: 100%;
+                                    border-radius: 2px;
+                
+                                }
+                
+                
+                                .link {
+                                    text-decoration: none;
+                                    /* padding: 24px 0; */
+                                    display: block;
+                                    position: relative;
+                
+                
+                                }
+                
+                                .menu-nav-mobile:hover,
+                                .menu-nav-mobile:focus {
+                                    color: #404bbf
+                                }
+                
+                                .mobile-navigation-list li:first-child .menu-nav-mobile {
+                                    position: relative;
+                
+                                    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                }
+                
+                                .mobile-navigation-list li:first-child .menu-nav-mobile:hover,
+                                .mobile-navigation-list li:first-child .menu-nav-mobile:focus {
+                                    color: #404bbf;
+                                }
+                .adress-style-mobile {
+                    color: var(--SLATE, #434455);
+                        /* Body */
+                    
+                        font-size: 16px;
+                    
+                        font-weight: 400;
+                        line-height: 24px;
+                        /* 150% */
+                        letter-spacing: 0.32px;
+                        font-style: normal;
 
                 }
 
-                .list-adress {
+                                .link:hover {
+                                    color: #404bbf;
+                                }
+                
+                                .link:focus {
+                                    color: #404bbf;
+                                }
+                
+                                .adress-style-mobile .live-connection:hover,
+                                .adress-style-mobile .live-connection:focus {
+                                    color: #404bbf
+                                }
+
+                .list-adress-mobile {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    margin-top: 168px;
+                   
 
                 }
-                .list-adress-itemtwo {
 
-                }
+                                .list-adress-itemtwo-mobile {
+                                    margin-right: 0;
+                                }
+                
+                                .live-connection {
+                                    color: #434455;
+                                }
+                
+                                /* Стилі для першого пункту списку контактів */
+                                .list-adress-itemone-mobile .live-connection,
+                                .list-adress-itemtwo-mobile .live-connection {
+                                    color: var(--SLATE, #434455);
+                                    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                }
+                
+                                .list-adress-itemone-mobile .live-connection:hover,
+                                .list-adress-itemone-mobile .live-connection:focus,
+                                .list-adress-itemtwo-mobile .live-connection:hover,
+                                .list-adress-itemtwo-mobile .live-connection:focus {
+                                    color: #404bbf;
+                                }
+              
                .live-connection .link {
 
                }
 
                .mobile-social-list {
+                display: flex;
+                    flex-direction: row;
+                    gap: 40px;
+                    margin-top: 48px;
+
 
                }
                .footer-media-item {
@@ -747,6 +874,12 @@ display: none;
                 .modal-window {
                     width: 408px;
                 }
+                                .mobile-menue-window {
+                                    display: none;
+                                }
+                                .mobile-menue {
+                                    display: none;
+                                }
     }
 
 
@@ -983,6 +1116,13 @@ display: none;
           /* .modal-paragraph {
             width: 360px;
           } */
+                .mobile-menue-window {
+                    display: none;
+                }
+        
+                .mobile-menue {
+                    display: none;
+                }
     }
 
 
