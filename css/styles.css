@@ -482,15 +482,31 @@ gap: 72px ;
                 }
 
                 .mobile-icon {
-                  position: absolute;
+                 position: absolute; 
+                 right: 0;
+                 top: 0;
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                
+                
+                }
                        
-                        /* Розміщення зверху */
-                        right: 0;
-                        /* Розміщення зліва */
-                        top: 0;
-                        margin-top: 24px;
-                        margin-right: 24px;
-                      
+                .modal-button {
+                position: absolute;
+                    top: 24px;
+                    right: 24px;
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color:#E7E9FC;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    padding: 0;
+                    cursor: pointer;
+                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                    align-items: center;
+                    justify-content: center;
                 }
         
                 .mobile-menue {
@@ -505,34 +521,32 @@ gap: 72px ;
                     padding-top: 72px;
                 }
 
-                .mobile-icon {
-
-                }
+            
                 .mobile-navigation {
 
                 }
 
-                .mobile-navigation-list {
-                    font-family: Roboto;
-                        font-size: 36px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 40px;
-                        /* 111.111% */
-                        letter-spacing: 0.72px;
-                        text-transform: capitalize;
+                .navigation-list {
+                    display: flex;
+                     flex-direction: column;
                         gap: 40px;
-                        color: var(--NAVY-BLUE, #2E2F42); 
-                    
-
-                }
+                        }
 
                 .menu-nav .link {
                     
 
                 }
 
-                .menue-nav-mobile .link  {
+    .menu-nav  {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    ine-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+                  
                    
                    
                 }
@@ -547,7 +561,7 @@ gap: 72px ;
                                     bottom: -1px;
                                     /* Відстань між нижнім краєм псевдоелемента і нижнім краєм батьківського елемента */
                                     height: 4px;
-                =
+            
                                     background-color: #404bbf;
                                     width: 100%;
                                     border-radius: 2px;
@@ -564,21 +578,6 @@ gap: 72px ;
                 
                                 }
                 
-                                .menu-nav-mobile:hover,
-                                .menu-nav-mobile:focus {
-                                    color: #404bbf
-                                }
-                
-                                .mobile-navigation-list li:first-child .menu-nav-mobile {
-                                    position: relative;
-                
-                                    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                                }
-                
-                                .mobile-navigation-list li:first-child .menu-nav-mobile:hover,
-                                .mobile-navigation-list li:first-child .menu-nav-mobile:focus {
-                                    color: #404bbf;
-                                }
                 .adress-style-mobile {
                     color: var(--SLATE, #434455);
                         /* Body */
@@ -692,6 +691,7 @@ gap: 72px ;
                         .navigation-list {
                             list-style-type: none;
                             display: flex;
+                            flex-direction: row;
                             gap: 40px;
                            text-align: end;
             
@@ -700,15 +700,31 @@ gap: 72px ;
                 display: none;
             }
 
-        .menu-nav .link {
+        .menu-nav  {
             font-family: Roboto;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 14px;
-            /* 116.667% */
-            letter-spacing: 0.48px;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                /* 150% */
+                letter-spacing: 0.32px;
     }
+        .menu-nav:hover::after {
+            content: '';
+    
+            position: absolute;
+    
+            left: 0;
+            /* Відстань між лівим краєм псевдоелемента і лівим краєм батьківського елемента */
+            bottom: -1px;
+            /* Відстань між нижнім краєм псевдоелемента і нижнім краєм батьківського елемента */
+            height: 4px;
+    
+            background-color: #404bbf;
+            width: 100%;
+            border-radius: 2px;
+    
+        }
          .main-styles {
              padding: 113px 0;
          }
@@ -926,13 +942,42 @@ display: none;
             .navigation-list {
                 list-style-type: none;
                 display: flex;
+                flex-direction: row;
                 gap: 40px;
             
             }
+            .menu-nav {
+            font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                /* 150% */
+                letter-spacing: 0.32px;
+                    
+            }
+
+
             .link {
             padding: 24px 0;
             font-size: 16px;
             }
+                        .menu-nav:hover::after {
+                            content: '';
+            
+                            position: absolute;
+            
+                            left: 0;
+                            /* Відстань між лівим краєм псевдоелемента і лівим краєм батьківського елемента */
+                            bottom: -1px;
+                            /* Відстань між нижнім краєм псевдоелемента і нижнім краєм батьківського елемента */
+                            height: 4px;
+            
+                            background-color: #404bbf;
+                            width: 100%;
+                            border-radius: 2px;
+            
+                        }
                         .list-adress {
                             list-style-type: none;
                             display: flex;
@@ -1226,7 +1271,7 @@ display: none;
 } */
 
 
-.menu-nav {
+/* .menu-nav {
     color: var(--NAVY-BLUE, #2E2F42);
     
     font-size: 16px;
@@ -1236,8 +1281,8 @@ display: none;
 
     letter-spacing: 0.32px;
 
-}
-.menu-nav:hover::after {
+} */
+/* .menu-nav:hover::after {
     content: '';
     
     position: absolute;
@@ -1252,17 +1297,17 @@ display: none;
     width: 100%;
     border-radius: 2px;
     
-}
+} */
 
 
-.link {
+/* .link {
     text-decoration: none;
     /* padding: 24px 0; */
     display: block;
     position: relative;
 
  
-}
+} */
 
 .menu-nav:hover,
 .menu-nav:focus {
