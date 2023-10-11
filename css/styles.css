@@ -20,7 +20,7 @@ ol {
 }
 img {
     display: block;
-    /* width: 100%; */
+    width: 100%;
     
 }
 /* Респонсивність */
@@ -668,8 +668,24 @@ gap: 72px ;
          pointer-events: auto;
             
                            }
-      
+         
     }
+
+        @media (min-resolution:  192dpi) {
+            .main-styles { 
+            background-image: url("/images/background-mobile.jpg 2x");
+            width: 100%;
+            background-size: 320px 432px;
+            
+            }
+                @media (min-resolution: 96dpi) {
+                 .main-styles {
+                    background-image: url("/images/people_office.jpg 1x");
+                    background-size: cover;
+                 }
+                }
+            
+        }
 
     
 
@@ -1396,7 +1412,7 @@ margin-right: 0;
 
 
 /* Унікальний контент сторінки */
-.main-styles {
+/* .main-styles {
     background-color: #2e2f42;
     /* padding: 188px 0; */
     text-align: center;
@@ -1406,7 +1422,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 margin: 0 auto;
-}
+} */
 
 
 /* .container {
