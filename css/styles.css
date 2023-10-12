@@ -673,14 +673,14 @@ gap: 72px ;
 
         @media (min-resolution:  192dpi) {
             .main-styles { 
-            background-image: url("/images/background-mobile.jpg 2x");
+            background-image: url("../images/background-mobile.jpg 2x");
             width: 100%;
             background-size: 320px 432px;
             
             }
                 @media (min-resolution: 96dpi) {
                  .main-styles {
-                    background-image: url("/images/people_office.jpg 1x");
+                    background-image: url("../images/people_office.jpg 1x");
                     background-size: cover;
                  }
                 }
