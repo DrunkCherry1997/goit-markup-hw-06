@@ -671,16 +671,17 @@ gap: 72px ;
          
     }
 
-        @media (min-resolution:  192dpi) {
+        @media (min-resolution:  192dpi)
+        (min-resolution: 2dppx) {
             .main-styles { 
-            background-image: url("../images/background-mobile.jpg 2x");
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile-2x.jpg );
             width: 100%;
             background-size: 320px 432px;
             
             }
                 @media (min-resolution: 96dpi) {
                  .main-styles {
-                    background-image: url("../images/people_office.jpg 1x");
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile.jpg);
                     background-size: cover;
                  }
                 }
@@ -755,6 +756,22 @@ gap: 72px ;
          .main-styles {
              padding: 113px 0;
          }
+
+                  @media (min-resolution: 192dpi) (min-resolution: 2dppx) {
+                      .main-styles {
+                          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-tablet-2x.jpg );
+                          width: 100%;
+                          background-size: 320px 432px;
+        
+                      }
+        
+                      @media (min-resolution: 96dpi) {
+                          .main-styles {
+                              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-tablet-1x.jpg);
+                              background-size: cover;
+                          }
+                      }
+                  }
 
        
         .main-title {
@@ -1016,6 +1033,21 @@ display: none;
                         .main-styles {
                             padding: 188px 0;
                         }
+                @media (min-resolution: 192dpi) (min-resolution: 2dppx) {
+                    .main-styles {
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-desktop-2x.jpg );
+                        width: 100%;
+                        background-size: 320px 432px;
+        
+                    }
+        
+                    @media (min-resolution: 96dpi) {
+                        .main-styles {
+                            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
+                            background-size: cover;
+                        }
+                    }
+                }
         .main-title {
                 font-size: 56px;
                 line-height: 1.07;
@@ -1217,11 +1249,7 @@ display: none;
 
    
 
-/* Для респонсивних фонових зображень використані медіа-функція min-resolution. 
-наприклад: */
-@media (min-resolution: 2dppx) {
-    
-}
+
 
 /* Навігація */
 
@@ -1412,17 +1440,17 @@ margin-right: 0;
 
 
 /* Унікальний контент сторінки */
-/* .main-styles {
+.main-styles {
     background-color: #2e2f42;
     /* padding: 188px 0; */
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
+    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg); */
 max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 margin: 0 auto;
-} */
+}
 
 
 /* .container {
