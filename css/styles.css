@@ -722,6 +722,9 @@ gap: 72px ;
 
     /* Для ширини екрана від 768px  */
     @media (min-width: 768px) {
+        .header {
+            padding: 0 16px;
+        } 
         .container {
                 width: 728px;
                 padding:  16px;
