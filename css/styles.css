@@ -639,6 +639,15 @@ gap: 72px ;
                     flex-direction: column;
                     gap: 24px;
                     margin-top: 168px;
+                    color: var(--SLATE, #434455);
+                        /* Header 3 */
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+                        /* 120% */
+                        letter-spacing: 0.4px;
                    
 
                 }
