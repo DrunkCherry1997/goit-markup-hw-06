@@ -338,7 +338,7 @@ gap: 72px ;
                 .footer-style {
                     background-color: #2e2f42;
                    
-                    padding: 100px 0;
+                    padding: 96px 0;
                    
                         
         
@@ -546,8 +546,8 @@ gap: 72px ;
                     width: 320px;
                     min-height: 640px;
                     background-color: #FFF;
-                    padding-left: 16px;
-                    padding-top: 72px;
+                   
+                    padding: 40px 16px;
                 }
 
             
@@ -673,6 +673,19 @@ gap: 72px ;
                     gap: 40px;
                     margin-top: 48px;
 
+
+               }
+
+               .live-connection .link {
+                color: var(--SLATE, #434455);
+                    /* Header 3 */
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    /* 120% */
+                    letter-spacing: 0.4px;
 
                }
                
