@@ -28,17 +28,18 @@ img {
 
 /* Для ширини екрана від 320px */
     @media (min-width: 320px) {
-
-        .header {
-            padding: 16px 0;
-        }
+    .header {
+        padding: 16px;
+    }
     .container {
             width: 320px;
             padding : 0 16px;
             margin : 0 auto;
            }
 
-                       
+      .second-section {
+        padding: 96px 0;
+      }                 
    
       .title-second {
 flex-direction: column;
@@ -46,10 +47,6 @@ list-style-type: none;
 
 gap: 72px ;
 
-      }
-
-      .second-section {
-        padding: 96px 0;
       }
      .my-icon {
               display: none;
@@ -128,7 +125,7 @@ gap: 72px ;
                 margin: 0 auto;
                 margin-bottom: 72px;
                 font-size: 36px;
-             
+                width: 220px;
               
         }
 
@@ -208,15 +205,21 @@ gap: 72px ;
            
 
         .text-advantages {
-       
+        color: var(--SLATE, #434455);
+            /* Body Medium */
+            font-family: Roboto;
+           
+            font-style: normal;
             font-weight: 500;
-            line-height: 24px;
-            /* 150% */
-            letter-spacing: 0.32px;
+            line-height: 1.5em;
+            letter-spacing: 0,32px;
+           
+        
           
           
         }
         .team {
+            background-color: #F4F4FD;
             padding-top: 96px;
             padding-bottom: 96px;
         }
@@ -237,6 +240,7 @@ gap: 72px ;
             letter-spacing: 0.72px;
             text-transform: capitalize;
             margin-bottom: 72px;
+            align-items: center;
            
           
         }
@@ -261,7 +265,6 @@ gap: 72px ;
                   .team-list-style {
                     display: flex ;
                       flex-direction: column;
-                      align-items: center;
                       width: 100%;
                       gap: 72px;
                   }
@@ -272,6 +275,7 @@ gap: 72px ;
                     text-align: center;
                     background-color: #FFFFFF;
                     width: 264px;
+                    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
                    
                 }
         
@@ -334,7 +338,7 @@ gap: 72px ;
                 .footer-style {
                     background-color: #2e2f42;
                    
-                    padding: 96px 0;
+                    padding: 100px 0;
                    
                         
         
@@ -543,9 +547,7 @@ gap: 72px ;
                     min-height: 640px;
                     background-color: #FFF;
                     padding-left: 16px;
-                    padding-right: 16px;
                     padding-top: 72px;
-                    padding-bottom: 40px;
                 }
 
             
@@ -637,22 +639,12 @@ gap: 72px ;
                     flex-direction: column;
                     gap: 24px;
                     margin-top: 168px;
-                    color: var(--SLATE, #434455);
-                        /* Header 3 */
-                        font-family: Roboto;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 24px;
-                        /* 120% */
-                        letter-spacing: 0.4px;
                    
 
                 }
 
                                 .list-adress-itemtwo-mobile {
                                     margin-right: 0;
-                                   
                                 }
                 
                                 .live-connection {
@@ -694,7 +686,7 @@ gap: 72px ;
          
     }
 
-        @media (min-resolution:  192dpi)
+        @media (min-resolution:  192dpi),
         (min-resolution: 2dppx) {
             .main-styles { 
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile-2x.jpg );
@@ -702,7 +694,7 @@ gap: 72px ;
             background-size: 320px 432px;
             
             }
-        
+        }
                 @media (min-resolution: 96dpi) {
                  .main-styles {
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile.jpg);
@@ -710,6 +702,7 @@ gap: 72px ;
                  }
                 }
             
+          
 
     
 
@@ -788,7 +781,7 @@ gap: 72px ;
                           background-size: 320px 432px;
         
                       }
-                    
+                    }
         
                       @media (min-resolution: 96dpi) {
                           .main-styles {
@@ -796,7 +789,7 @@ gap: 72px ;
                               background-size: cover;
                           }
                       }
-                  }
+                  
 
        
         .main-title {
@@ -811,7 +804,7 @@ gap: 72px ;
             letter-spacing: 1.12px;
             margin: 0 auto 136px;
             margin-bottom: 36px;
-            max-width: 496px;
+            width: 496px;
 
         }
 
@@ -880,14 +873,16 @@ display: none;
  
        
         .advantages-title {
-            font-family: Roboto;
-            font-size: 36px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 40px;
-            /* 111.111% */
-            letter-spacing: 0.72px;
-            text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
         }
         .advantages-title-second {
             text-align: left;
@@ -1062,11 +1057,11 @@ display: none;
                 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
                     .main-styles {
                         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-desktop-2x.jpg );
-                        /* width: 100%; */
-                        background-size: 320px 432px;
+                        width: 100%;
+                        /* background-size: 320px 432px; */
         
                     }
-                
+                }
                 
         
                     @media (min-resolution: 96dpi) {
@@ -1075,7 +1070,7 @@ display: none;
                             background-size: cover;
                         }
                     }
-                }
+            
         .main-title {
                 font-size: 56px;
                 line-height: 1.07;
@@ -1128,6 +1123,31 @@ display: none;
                 width: 100%;
                 padding: 120px 0;
             }
+
+                        .advantages-title {
+                            color: var(--NAVY-BLUE, #2E2F42);
+            
+            
+                            font-size: 20px;
+            
+                            font-weight: 500;
+                            line-height: 1.2;
+            
+                            letter-spacing: 0.02em;
+                            margin-bottom: 8px;
+            
+                        }
+        .text-advantages {
+                color: var(--SLATE, #434455);
+                /* Body */
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                /* 150% */
+                letter-spacing: 0.32px;
+        }
         .my-icon {
             display: flex;
             align-items: center;
@@ -1163,12 +1183,6 @@ display: none;
                     text-align: left;
             }
 
-            .team {
-                background-color: #F4F4FD;
-                padding-top: 120px;
-                padding-bottom: 120px;
-            }
-
             
                         .container {
                             width: 1158px;
@@ -1176,6 +1190,11 @@ display: none;
                             margin: 0 auto;
             
                         }
+                .team {
+                    background-color: #F4F4FD;
+                    padding-top: 120px;
+                    padding-bottom: 120px;
+                }
                 .team-list-style {
                     list-style-type: none;
                     display: flex;
@@ -1183,16 +1202,9 @@ display: none;
                     gap: 24px;
                     width: 100%;
                 }
-
-                            
         .team-list-item {
             width: calc((100% - 24px * 3) / 4);
-            flex-basis: calc((100% - 72px) /4);
-                border-radius: 0px 0px 4px 4px;
-                text-align: center;
-                background-color: #FFFFFF;
         }
-
                 .portfolio {
                     padding: 120px 0;
                 }
@@ -1594,7 +1606,7 @@ clip: rect(0 0 0 0); overflow: hidden;
     border-radius: 4px;
     margin-bottom: 8px;
 } */
-
+/* 
 .advantages-title {
     color: var(--NAVY-BLUE, #2E2F42);
   
@@ -1607,20 +1619,20 @@ clip: rect(0 0 0 0); overflow: hidden;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     
-}
+} */
 
-.text-advantages {
+/* .text-advantages {
     color: var(--SLATE, #434455);
     
     
     font-size: 16px;
-/*    
-    font-weight: 400; */
+   
+    font-weight: 400;
     line-height: 1.5em ;
    
     letter-spacing: 0.32px;
    
-}
+} */
 .list-style {
     list-style-type: none;
 }
@@ -1700,12 +1712,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-/* .team-list-item {
+.team-list-item {
     flex-basis: calc((100% - 72px) /4);
 border-radius: 0px 0px 4px 4px;
 text-align: center;
     background-color: #FFFFFF;
-} */
+}
 .team-list-item:first-child{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
