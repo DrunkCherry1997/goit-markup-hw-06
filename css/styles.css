@@ -639,15 +639,7 @@ gap: 72px ;
                     flex-direction: column;
                     gap: 24px;
                     margin-top: 168px;
-                    color: var(--SLATE, #434455);
-                        /* Header 3 */
-                        font-family: Roboto;
-                        font-size: 20px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 24px;
-                        /* 120% */
-                        letter-spacing: 0.4px;
+                  
                    
 
                 }
@@ -685,7 +677,7 @@ gap: 72px ;
 
                }
 
-               .live-connection .link {
+               .live-connection  {
                 color: var(--SLATE, #434455);
                     /* Header 3 */
                     font-family: Roboto;
@@ -747,8 +739,9 @@ gap: 72px ;
                         .list-adress {
                             display: flex;
                             flex-direction: column;
-                                /* gap: 12px; */
+                                gap: 12px;
                                 font-size: 12px;
+                                padding-right: 16px;
                         }
 
                      /* .link {
@@ -790,6 +783,18 @@ gap: 72px ;
             width: 100%;
             border-radius: 2px;
     
+        }
+        .live-connection {
+            color: var(--SLATE, #434455);
+                /* Small Text */
+                font-family: Roboto;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 14px;
+                /* 116.667% */
+                letter-spacing: 0.48px;
+                
         }
          .main-styles {
              padding: 113px 0;
