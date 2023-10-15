@@ -772,9 +772,10 @@ gap: 72px ;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 500;
-                line-height: 24px;
+                line-height: 1.5em;
                 /* 150% */
                 letter-spacing: 0.32px;
+             
     }
         .menu-nav:hover::after {
             content: '';
@@ -792,6 +793,8 @@ gap: 72px ;
             border-radius: 2px;
     
         }
+
+        
         .live-connection {
             color: var(--SLATE, #434455);
                 /* Small Text */
@@ -1220,6 +1223,18 @@ display: none;
                     /* 120% */
                     letter-spacing: 0.4px;
                     text-align: left;
+            }
+
+            .advantages-title-last {
+                color: var(--NAVY-BLUE, #2E2F42);
+                    /* Header 3 */
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 1.2em;
+                    /* 120% */
+                    letter-spacing: 0.4px;
             }
 
             
