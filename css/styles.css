@@ -706,19 +706,19 @@ gap: 72px ;
         @media (min-resolution:  192dpi),
         (min-resolution: 2dppx) {
             .main-styles { 
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile-2x.jpg );
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mob-2x.jpg );
             width: 100%;
             background-size: 320px 432px;
             
             }
         }
-                @media (min-resolution: 96dpi) {
+                /* @media (min-resolution: 96dpi) {
                  .main-styles {
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-mobile.jpg);
                     background-size: cover;
                  }
                 }
-            
+             */
           
 
     
@@ -810,7 +810,15 @@ gap: 72px ;
          .main-styles {
              padding: 113px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-tablet-1x.jpg);
+            background-size: cover;
          }
+
+                   /* @media (min-resolution: 96dpi) {
+                       .main-styles {
+                           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-tablet-1x.jpg);
+                           background-size: cover;
+                       }
+                   } */
 
                   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
                       .main-styles {
@@ -821,13 +829,7 @@ gap: 72px ;
                       }
                     }
         
-                      @media (min-resolution: 96dpi) {
-                          .main-styles {
-                              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-tablet-1x.jpg);
-                              background-size: cover;
-                          }
-                      }
-                  
+                    
 
        
         .main-title {
@@ -1106,12 +1108,12 @@ display: none;
                 }
                 
         
-                    @media (min-resolution: 96dpi) {
+                    /* @media (min-resolution: 96dpi) {
                         .main-styles {
                             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
                             background-size: cover;
                         }
-                    }
+                    } */
             
         .main-title {
                 font-size: 56px;
@@ -1340,7 +1342,8 @@ display: none;
     }
      .footer-social-media-container {
         margin-right: auto;
-        margin-left: 24px;
+      
+        
         
        
      }
@@ -1571,7 +1574,7 @@ margin-right: 0;
     background-color: #2e2f42;
     /* padding: 188px 0; */
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
+    /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg); */
 max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
