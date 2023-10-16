@@ -987,14 +987,15 @@ display: none;
              }
 
              .container-last-newform {
-                gap: 24px;
+                padding-left: 24px;
              }
              .form-paragraph {
                 text-align: left;
              }
             .footer-social-media-container {
               
-                margin: 0 auto;
+                margin-top: 0;
+                margin-left: 24px;
                 
             }
                   
@@ -1024,6 +1025,9 @@ display: none;
 
     /* Для ширини екрана від 1158px і більше */
     @media (min-width: 1158px) {
+        .header {
+        padding: 0;
+        }
         .container {
                 width: 1158px;
                 padding-left: 15px;
@@ -1294,7 +1298,7 @@ display: none;
               
          }
          .container-footer {
-            margin-right: 120px;
+            /* margin-right: 120px; */
          }
 
                  .logo-style {
@@ -1341,7 +1345,8 @@ display: none;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
      .footer-social-media-container {
-        margin-right: auto;
+        /* margin-right: 80px; */
+        margin-left: 80px;
       
         
         
