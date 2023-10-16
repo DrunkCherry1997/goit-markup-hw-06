@@ -725,9 +725,9 @@ gap: 72px ;
 
     /* Для ширини екрана від 768px  */
     @media (min-width: 768px) {
-        /* .header {
-            padding: 0 16px;
-        }  */
+        .header {
+            padding: 16px 0;
+        } 
         .container {
                 width: 768px;
                 /* padding:  16px; */
@@ -1025,7 +1025,7 @@ display: none;
 
     /* Для ширини екрана від 1158px і більше */
     @media (min-width: 1158px) {
-        .header {
+        .header {    
         padding: 0;
         }
         .container {
