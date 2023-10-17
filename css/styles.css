@@ -726,7 +726,7 @@ gap: 72px ;
     /* Для ширини екрана від 768px  */
     @media (min-width: 768px) {
         .header {
-            padding: 16px 0;
+            /* padding: 16px 0; */
         } 
         .container {
                 width: 768px;
@@ -777,7 +777,7 @@ gap: 72px ;
                 letter-spacing: 0.32px;
              
     }
-        .menu-nav:hover::after {
+  .active-menu-nav-link:after {
             content: '';
     
             position: absolute;
@@ -793,7 +793,7 @@ gap: 72px ;
             border-radius: 2px;
     
         }
-
+        
         
         .live-connection {
             color: var(--SLATE, #434455);
