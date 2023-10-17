@@ -72,6 +72,8 @@ gap: 72px ;
             text-transform: capitalize;
         }
 
+       
+
         .navigation-list {
             display: none;
         }
@@ -91,6 +93,7 @@ gap: 72px ;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 align-items: center;
                 justify-content: center;
+            margin-left: 75px;
            
         }
 
@@ -102,7 +105,8 @@ gap: 72px ;
              fill: currentColor;
         
              text-align: end;
-             margin-left: 75px;
+               
+             
             
          }
 
@@ -770,6 +774,9 @@ gap: 72px ;
                            text-align: end;
             
                         }
+                         .stripe-buttom {
+                            margin: 0;
+                         }
             .heroicons-solid-menu-1 {
                 display: none;
             }
