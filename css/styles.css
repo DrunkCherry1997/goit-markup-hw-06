@@ -1071,6 +1071,9 @@ img {
   .menu-nav link active-menu-nav-link-portfolio {
    display: none;
   }
+  .menu-nav link active-menu-nav-link {
+    display: none;
+  }
 }
 
 /* Для ширини екрана від 1158px і більше */
