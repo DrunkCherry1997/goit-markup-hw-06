@@ -11,70 +11,91 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-     <!-- Шапка веб-сторінки -->
+    <!-- Шапка веб-сторінки -->
 
-     <header class="header">
-        <div class="container-first container">
-          <!-- Логотип та навігація веб-сторінки -->
-  
-          <nav class="navigation">
-            <a class="logotype" href="./index.html">
-              Web<span class="first-studio">Studio</span></a
-            >
-            <button class="stripe-buttom" type="button">
-              <svg class="heroicons-solid-menu-1" width="24" height="24">
-                <use href="./images/icons.svg#icon-heroicons-solid-menu-1"></use>
-              </svg>
-            </button>
-  
-            <ul class="navigation-list">
-              <li class="navigation-thing first-menu-nav">
-                <a class="menu-nav link active-menu-nav-link" href="./index.html"
-                  >Studio</a
-                >
-              </li>
-              <li class="navigation-thing">
-                <a href="./portfolio.html"class="menu-nav link" href="">Portfolio</a>
-              </li>
-              <li class="navigation-thing">
-                <a class="menu-nav link" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- Контактна інформація -->
-          <address class="adress-style">
-            <ul class="list-adress">
-              <li class="list-adress-itemone">
-                <a class="live-connection link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="list-adress-itemtwo">
-                <a class="live-connection link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
-      </header>
-     <main>
-     <section class="portfolio">
+    <header class="header">
+      <div class="container-first container">
+        <!-- Логотип та навігація веб-сторінки -->
+
+        <nav class="navigation">
+          <a class="logotype" href="./index.html">
+            Web<span class="first-studio">Studio</span></a
+          >
+          <button class="stripe-buttom" type="button">
+            <svg class="heroicons-solid-menu-1" width="24" height="24">
+              <use href="./images/icons.svg#icon-heroicons-solid-menu-1"></use>
+            </svg>
+          </button>
+
+          <ul class="navigation-list">
+            <li class="navigation-thing first-menu-nav">
+              <a
+                class="menu-nav link active-menu-nav-link"
+                href="./index.html"
+                data-active="false"
+                >Studio</a
+              >
+            </li>
+            <li class="navigation-thing">
+              <a
+                href="./portfolio.html"
+                class="menu-nav link"
+                data-active="true"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navigation-thing">
+              <a class="menu-nav link" href="" data-active="false">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Контактна інформація -->
+        <address class="adress-style">
+          <ul class="list-adress">
+            <li class="list-adress-itemone">
+              <a class="live-connection link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="list-adress-itemtwo">
+              <a class="live-connection link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <section class="portfolio">
         <div class="container">
-            <h1 hidden class="filtr-title">Filtr</h1>
+          <h1 hidden class="filtr-title">Filtr</h1>
 
-            <ul class="filtr-list list">
-              <li class="item"><button type="button" class="filtr-button">All</button></li>
-              <li class="item"><button type="button" class="filtr-button">Web Site</button></li>
-              <li class="item"><button type="button" class="filtr-button">App</button></li>
-              <li class="item"><button type="button" class="filtr-button">Design</button></li>
-              <li class="item"><button type="button" class="filtr-button">Marketing</button></li>
-            </ul>
-          
+          <ul class="filtr-list list">
+            <li class="item">
+              <button type="button" class="filtr-button">All</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filtr-button">Web Site</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filtr-button">App</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filtr-button">Design</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filtr-button">Marketing</button>
+            </li>
+          </ul>
+
           <h2 class="title-section">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="bankingapp">
@@ -324,78 +345,77 @@
         </div>
       </section>
     </main>
-     <!-- Футер сторінки -->
+    <!-- Футер сторінки -->
 
-     <footer class="footer-style">
-        <div class="container footer-all-wrapper">
-          <!-- Логотип веб-сторінки -->
-          <div class="container-footer">
-            <a class="logo-style" href="./index.html">
-              Web<span class="studio-footer">Studio </span></a
-            >
-            <p class="footer-text">
-              Increase the flow of customers and sales for your business with
-              digital marketing & growth solutions.
-            </p>
-          </div>
-  
-          <div class="footer-social-media-container">
-            <p class="footer-media-paragragh">Social media</p>
-            <ul class="media-list-footer">
-              <li class="footer-media-item">
-                <a class="footer-media-link" href="">
-                  <svg width="24" height="24" class="footer-icons">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-media-item">
-                <a class="footer-media-link" href="">
-                  <svg width="24" height="24" class="footer-icons">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-media-item">
-                <a class="footer-media-link" href="">
-                  <svg width="24" height="24" class="footer-icons">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-media-item">
-                <a class="footer-media-link" href="">
-                  <svg width="24" height="24" class="footer-icons">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-  
-          <div class="container-last-newform">
-            <p class="form-paragraph">Subscribe</p>
-            <form class="form" name="subscribe_form" autocomplete="off">
-              <label class="form-label">
-                <input
-                  class="form-input"
-                  type="email"
-                  name="email"
-                  placeholder="E-mail"
-                />
-              </label>
-  
-              <button class="subscribe_button" type="submit">
-                Subscribe
-                <svg width="24" height="24" class="footer-icons-new">
-                  <use href="./images/icons.svg#icon-telegram"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+    <footer class="footer-style">
+      <div class="container footer-all-wrapper">
+        <!-- Логотип веб-сторінки -->
+        <div class="container-footer">
+          <a class="logo-style" href="./index.html">
+            Web<span class="studio-footer">Studio </span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
         </div>
-      </footer>
-  
+
+        <div class="footer-social-media-container">
+          <p class="footer-media-paragragh">Social media</p>
+          <ul class="media-list-footer">
+            <li class="footer-media-item">
+              <a class="footer-media-link" href="">
+                <svg width="24" height="24" class="footer-icons">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-media-item">
+              <a class="footer-media-link" href="">
+                <svg width="24" height="24" class="footer-icons">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-media-item">
+              <a class="footer-media-link" href="">
+                <svg width="24" height="24" class="footer-icons">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-media-item">
+              <a class="footer-media-link" href="">
+                <svg width="24" height="24" class="footer-icons">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container-last-newform">
+          <p class="form-paragraph">Subscribe</p>
+          <form class="form" name="subscribe_form" autocomplete="off">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button class="subscribe_button" type="submit">
+              Subscribe
+              <svg width="24" height="24" class="footer-icons-new">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
 
     <script src="./js/modal.js"></script>
   </body>
